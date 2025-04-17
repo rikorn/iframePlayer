@@ -5,7 +5,7 @@ const playBtn = document.getElementById("playBtn");
 const timeText = document.getElementById("timeText");
 
 if (file) {
-  audio.src = "https://studenter.miun.se/~rior2200/audio/" + file;
+  audio.src = "audio/" + file;
 
   let isPlaying = false;
 
