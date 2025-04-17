@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.player-container {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 8px 14px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 260px;
+  box-sizing: border-box;
+}
+
+.play-button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  flex-shrink: 0;
+}
+
+.play-button:hover {
+  background-color: #45a049;
+}
+
+.time {
+  font-size: 13px;
+  color: #333;
+  flex-grow: 1;
+  text-align: center;
+  word-break: keep-all;
+}
