@@ -5,7 +5,7 @@ const playBtn = document.getElementById("playBtn");
 const timeText = document.getElementById("timeText");
 
 if (file) {
-  audio.src = "https://rikorn.github.io/iframePlayer/audio" + file;
+  audio.src = "https://rikorn.github.io/iframePlayer/" + file;
 
   let isPlaying = false;
 
